@@ -7,6 +7,6 @@ const {
 const router = express.Router();
 
 router.post("/getPlayer", getPlayer);
-router.get("/getAllPlayer", getAllPlayers);
+router.post("/getAllPlayers", getAllPlayers);
 router.post("/getFilteredPlayers", getFilteredPlayer);
 module.exports = router;
